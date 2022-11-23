@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/POO.iml" filepath="$PROJECT_DIR$/.idea/POO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-listas-recursion/java-listas-recursion.iml" filepath="$PROJECT_DIR$/java-listas-recursion/java-listas-recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/primer-proyecto/primer-proyecto.iml" filepath="$PROJECT_DIR$/primer-proyecto/primer-proyecto.iml" />
+    </modules>
+  </component>
+</project>
