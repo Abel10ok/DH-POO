@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Prueba {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws EmpresaExcepcion {
 
         Empresa empresa1 = new Empresa("River");
 
@@ -16,6 +16,14 @@ public class Prueba {
         String chivilcoy = Estaciones.chivilcoy;
         String alberti = Estaciones.alberti;
         String bragado = Estaciones.bragado;
+
+        empresa1.addEstaciones(buenrosAires);
+        empresa1.addEstaciones(lujan);
+        empresa1.addEstaciones(mercedes);
+        empresa1.addEstaciones(suipacha);
+        empresa1.addEstaciones(chivilcoy);
+        empresa1.addEstaciones(alberti);
+        empresa1.addEstaciones(bragado);
 
         Recorrido recorrido1 = new Recorrido(buenrosAires,bragado);
         Recorrido recorrido2 = new Recorrido(lujan,bragado);
@@ -37,7 +45,7 @@ public class Prueba {
 
         System.out.println(empresa1.toString());
 
-        System.out.println(empresa1.cantVecesRecorrida(alberti));
+        System.out.println(empresa1.cantVecesRecorrida("river"));
 
 
 
